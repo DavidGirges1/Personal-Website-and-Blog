@@ -7,13 +7,11 @@ export default function Hero() {
           David Girgis
         </h1>
 
-        {/* Subtitle */}
         <p className="text-gray-400 text-xl max-w-xl leading-relaxed">
           Full Stack Developer <span className="text-blue-500 mx-2">||</span>{" "}
           Growing in ML & DL
         </p>
 
-        {/* Primary CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center gap-4 font-semibold">
           <button className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-all transform hover:-translate-y-0.5 shadow-lg shadow-blue-500/20 w-44">
             Download CV
@@ -23,9 +21,7 @@ export default function Hero() {
           </button>
         </div>
 
-        {/* --- Social Links Section --- */}
         <div className="flex items-center gap-6 mt-4">
-          {/* GitHub */}
           <a
             href="https://github.com/DavidGirges1"
             target="_blank"
@@ -42,7 +38,6 @@ export default function Hero() {
             </svg>
           </a>
 
-          {/* LinkedIn */}
           <a
             href="https://linkedin.com/in/your-username"
             target="_blank"
